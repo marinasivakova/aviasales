@@ -1,0 +1,22 @@
+$shadow-color: rgba(151, 151, 151, 0.2);
+$background-color: #2196f3;
+$font-color: #fff;
+
+.tickets-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.message-container {
+  padding: 15px 20px;
+  box-shadow: 0 0 5px $shadow-color;
+  border-radius: 5px;
+  background-color: $background-color;
+  color: $font-color;
+  .message {
+    margin: 0 auto;
+    text-align: center;
+  }
+}

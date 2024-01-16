@@ -1,0 +1,43 @@
+$price-color: #2196f3;
+$text-color1: #a0b0b9;
+$text-color2: #4a4a4a;
+$shadow-color: rgba(151, 151, 151, 0.2);
+$background-color: #ffffff;
+
+.ticket {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 15px 20px;
+  box-shadow: 0 0 5px $shadow-color;
+  border-radius: 5px;
+  background-color: $background-color;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .ticket-price {
+    color: $price-color;
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+.ticket-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-weight: 600;
+  .ticket-cell {
+    display: flex;
+    flex-direction: column;
+    .ticket-subtitle {
+      color: $text-color1;
+      font-size: 12px;
+    }
+    .ticket-subtext {
+      font-size: 14px;
+    }
+  }
+}

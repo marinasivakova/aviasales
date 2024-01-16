@@ -1,0 +1,15 @@
+$background-color: #2196F3;
+$text-color: #FFF;
+
+.show-more {
+    cursor: pointer;
+    background-color: $background-color;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: $text-color;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
